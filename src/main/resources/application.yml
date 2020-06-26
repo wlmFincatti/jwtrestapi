@@ -1,0 +1,11 @@
+jwt:
+  secret: sijdnahufeuvndsvkcj2713426ryfr
+spring:
+  datasource:
+    url: jdbc:h2:mem:testedb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+  jpa:
+    show-sql: true
+
